@@ -1,0 +1,488 @@
+@media all and (max-width:1440px){
+  .control{
+    display: none;
+  }
+}
+
+/************************************************************************
+	@media ~1280px
+************************************************************************/
+@media all and (max-width:1280px){
+  br{display: none;}
+  #fp-nav.right{
+    right: 0px !important;
+  }
+
+/**** 어바웃 ****/
+.about .container{
+  gap: 100px;
+}
+.about .left{
+  width: 40%;
+} 
+.about .right{
+  width: 60%;
+}
+
+.about .img_group .bg{
+  max-height: 516px;
+  min-height: 400px;
+}
+.about .img_group .bg img{
+  object-position: left;
+}
+.about .img_group .person{
+  right: -60px;
+}
+.about .text_group{
+  margin-bottom: 25px;
+}
+
+.about .text_group:last-child h4{
+  margin-bottom: 16px;
+}
+
+.about .text_group .personal{
+  margin-bottom: 2px;
+}
+.about .gray{
+  margin-right: 15px;
+  min-width: 185px;
+}
+.about .icon_group{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.about .icon_group img{
+  max-width: 60px;
+}
+
+
+/**** 프로젝트 ****/
+.project .container{
+  gap: 40px;
+}
+.project .left{
+  max-width: 220px;
+  min-width: 220px;
+  max-height: 524px;
+}
+.project h5{
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.project .thin{
+  margin-bottom: 22px;
+}
+.project .text_group{
+  margin-bottom: 16px;
+}
+.project .left .site_info{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.project .left a{
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 38px;
+}
+.project .right{
+  max-width: 1040px;
+  width: calc(100% - 260px);
+  max-height: 524px;
+}
+.project .slider .pc{
+  display: block;
+}
+.project .slider .m{
+  display: none;
+}
+
+
+}
+
+
+
+/************************************************************************
+	@media ~980px
+************************************************************************/
+@media all and (max-width:980px){
+  *{font-size:14px;}
+  .container{padding: 0 3%;}
+  h3{
+    position: absolute;
+    top: 40px;
+    left: 3%;
+    font-size: 3.125rem;
+  }
+  h4{
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+  }
+
+  /**** 메인 ****/
+  .main h2{
+    font-size: 5rem;
+  }
+  .main .scroll{
+    bottom: 60px;
+  }
+  .main .scroll p{
+    margin: 0 0 8px;
+  }
+
+/**** 어바웃 ****/
+  .about .container{
+    gap: 90px;
+  }
+  .about .left{
+    width: 40%;
+  } 
+  .about .right{
+    width: 60%;
+  }
+  .about .img_group .bg{
+    max-height: 516px;
+    min-height: 400px;
+  }
+  .about .img_group .person{
+    right: -60px;
+  }
+  .about .text_group{
+    margin-bottom: 20px;
+  }
+  .about .text_group:last-child h4{
+    margin-bottom: 16px;
+  }
+  .about .text_group .personal{
+    margin-bottom: 2px;
+  }
+  .about .gray{
+    margin-right: 12px;
+    min-width: 162px;
+  }
+  .about .icon_group{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .about .icon_group img{
+    max-width: 40px;
+  }
+
+
+/**** 프로젝트 ****/
+  .project .container{
+    gap: 30px;
+  }
+  .project .left{
+    max-width: 220px;
+    min-width: 220px;
+    max-height: 524px;
+  }
+  .project h5{
+    font-size: 2rem;
+    margin-bottom: 6px;
+  }
+  .project .thin{
+    margin-bottom: 18px;
+  }
+  .project .text_group{
+    margin-bottom: 14px;
+  }
+  .project .left a{
+    width: 120px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 34px;
+  }
+  .project .right{
+    max-width: 1040px;
+    width: calc(100% - 260px);
+    max-height: 524px;
+  }
+  .project .slider .pc{
+    display: block;
+  }
+  .project .slider .m{
+    display: none;
+  }
+
+/**** contact ****/
+  .contact .container{
+    gap: 20px;
+  }
+  .contact .gform input{
+    max-width: 510px;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 14px;
+  }
+  .contact .gform textarea{
+    height: 240px;
+  }
+  .contact .gform button{
+    width: 120px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .contact .right{
+    height: 495px;
+  }
+
+/* 푸터 */
+  footer.fp-auto-height.fp-section{height: 130px !important;}
+  footer .fp-overflow{
+    height: 130px !important;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  footer p.eng{
+    font-size: 12px;
+  }
+}
+
+
+
+/************************************************************************
+	@media ~680px
+************************************************************************/
+@media all and (max-width:680px){
+  *{font-size:13px;}
+  h3{
+    position: absolute;
+    top: 40px;
+    left: 3%;
+    font-size: 3rem;
+  }
+  h4{
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+  }
+  .container{
+    height: auto;
+  }
+  section.fp-auto-height{
+    height: max-content !important;
+  }
+  section.fp-auto-height.fp-section{
+    height: max-content !important;
+  }
+
+  /**** 메인 ****/
+  .main h2{
+    font-size: 4rem;
+  }
+  .main .scroll{
+    bottom: 40px;
+  }
+  .main .container{
+    height: 100vh;
+  }
+/**** 어바웃 ****/
+  .about{
+    height: auto !important;
+  }
+  .about .container{
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .about .left{
+    width: 100%;
+    margin-bottom: 30px;
+  } 
+  .about .right{
+    width: 100%;
+  }
+  .about .img_group{
+    max-width: initial;
+  }
+  .about .img_group .bg{
+    max-width: initial;
+    width: 90%;
+    height: auto;
+    max-height: initial;
+    min-height: initial;
+  }
+  .about .img_group .person{
+    right: 0;
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1.5 / 2;
+  }
+  .about .text_group{
+    margin-bottom: 16px;
+  }
+  .about .text_group:last-child h4{
+    margin-bottom: 12px;
+  }
+  .about .text_group .personal{
+    margin-bottom: 2px;
+  }
+  .about .gray{
+    margin-right: 10px;
+    min-width: 150px;
+  }
+  .about .icon_group{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .about .icon_group img{
+    max-width: 30px;
+  }
+
+
+/**** 프로젝트 ****/
+  .project .container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .project .left{
+    order: 2;
+    max-width: initial;
+    min-width: initial;
+    width: 100%;
+    max-height: initial;
+    min-height: 300px;
+  }
+  .project h5{
+    font-size: 2rem;
+    margin-bottom: 6px;
+  }
+  .project .thin{
+    margin-bottom: 18px;
+  }
+  .project .text_group{
+    margin-bottom: 14px;
+  }
+  .project .left a{
+    width: 120px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 34px;
+  }
+  .project .right{
+    max-width: initial;
+    width: 100%;
+    max-height: initial;
+    width: 100%;
+  }
+  .project .slider .pc{
+    display: none;
+  }
+  .project .slider .m{
+    display: block;
+    object-position: top;
+  }
+
+/**** contact ****/
+  .contact .container{
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .contact .gform input{
+    max-width: 510px;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 14px;
+  }
+  .contact .gform textarea{
+    height: 240px;
+  }
+  .contact .gform button{
+    width: 120px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .contact .right{
+    height: 495px;
+  }
+
+/* 푸터 */
+  footer.fp-auto-height.fp-section{height: 130px !important;}
+  footer .fp-overflow{
+    height: 130px !important;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  footer p.eng{
+    font-size: 12px;
+  }
+
+}
+
+
+
+/************************************************************************
+	@media ~480px
+************************************************************************/
+@media all and (max-width:480px){
+  .about .text_group>div{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .about .text_group .icon_group{
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  /**** contact ****/
+  .contact .container{
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .contact .left,
+  .contact .right{
+    width: 100%;
+  }
+  .contact .left{
+    order: 2;
+  }
+  .contact .right{
+    max-height: 300px;
+  }
+  .contact .gform input{
+    max-width: initial;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 12px;
+  }
+  .contact .gform textarea{
+    height: 200px;
+  }
+  .contact .gform button{
+    width: 120px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .contact .right{
+    height: 495px;
+  }
+}
+
+
+
+/************************************************************************
+	@media ~320px
+************************************************************************/
+@media all and (max-width:320px){
+
+  #wrap{min-width:280px;}
+}

@@ -327,13 +327,13 @@ h4{
 }
 .project h5{
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: -.2px;
   word-break: keep-all;
   margin-bottom: 8px;
 }
 .project .thin{
-  font-weight: 400;
+  font-weight: 100;
   margin-bottom: 22px;
 }
 

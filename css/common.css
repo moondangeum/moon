@@ -560,7 +560,7 @@ h4{
   overflow: hidden;
 }
 .contact .background{
-  background: url(img/water.jpg) no-repeat center / cover;
+  background: url('../img/water.jpg') no-repeat center / cover;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;

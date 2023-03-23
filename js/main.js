@@ -13,7 +13,7 @@ $(window).ready(function(){
 			$('.fp-tooltip').eq(nextIndex - 1).addClass('action');
 		},
 		afterLoad: function(direction, index){
-			console.log(index)
+			//console.log(index)
 			if(index == 1){
 				$('.main h2').addClass('bottomD1')
 				$('.main .scroll').addClass('centerD2')

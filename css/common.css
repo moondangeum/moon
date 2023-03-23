@@ -1154,3 +1154,14 @@ footer p.eng{
 
   #wrap{min-width:280px;}
 }
+
+@media all and (max-height:770px) and (min-width: 1280px){
+  h3{
+    top: 20px;
+  }
+}
+@media all and (max-height:680px) and (min-width: 1280px){
+  h3{
+    display: none;
+  }
+}
